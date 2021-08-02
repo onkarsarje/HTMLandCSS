@@ -2,28 +2,31 @@
 
 
 :root {
-    --primary-color: 
-    #D97706;
-    --dark-gray: 
-    #6B7280;
+    --primary-color:
+        #D97706;
+    --dark-gray:
+        #6B7280;
+    --off-white: 
+    #F3F4F6;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
 hr {
     margin: 2rem 0rem;
 }
+
 /* container */
 .container {
     padding-left: lrem;
     padding-right: lrem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
-    margin:auto;
+    margin: auto;
 }
 
 /* links */
@@ -33,7 +36,7 @@ hr {
     padding: 0.5rem 1rem;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
@@ -64,7 +67,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem; 
+    border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
@@ -81,7 +84,7 @@ hr {
 }
 
 .navigation .link-active {
-    font-weight:  bold;
+    font-weight: bold;
 }
 
 
@@ -89,17 +92,37 @@ hr {
 
 .hero {
     padding: 2rem;
-    
+
 }
 
 .hero .hero-img {
     max-width: 350px;
     display: block;
-    margin:auto;
+    margin: auto;
 }
 
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-gray);
 
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+
+/* sections  */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    
+}
+
+.ow {
+    background-color: var(--off-white);
 }
