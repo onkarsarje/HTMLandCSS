@@ -18,6 +18,7 @@ body {
 
 hr {
     margin: 2rem 0rem;
+    
 }
 
 /* margin  */
@@ -47,6 +48,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    
 }
 
 .link-secondary {
@@ -160,3 +162,5 @@ footer {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+
