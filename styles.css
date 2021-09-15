@@ -123,6 +123,13 @@ hr {
 }
 
 
+.matter {
+    text-align: justify;
+    max-width: 80%;
+    display: block;
+    margin: auto;
+}
+
 /* sections  */
 
 .section{
@@ -164,3 +171,9 @@ footer {
 }
 
 
+.hero .hero-img {
+    max-width: 80%;
+    width: 550px;
+    display: block;
+    margin: auto;
+}
