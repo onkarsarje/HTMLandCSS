@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onkarsarje | Blogs | Status Codes</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">IAmADeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link " href="/Projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/Blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 class="hero-heading">what are<span class="heading-inverted"> HTTP Status Codes </span>and what do they mean.</h1>
+       
+    </header>
+
+    <div class="matter">
+        <p>When we search on google for a website <b>neog.camp </b>for instance the browser sends requests to the server and documents, style-sheets, javascript files, fonts are downloaded. And for each request there are multiple HTTP Headers which according to the MDN Web Docs <i>let the client and the server pass additional information with an HTTP request or response. </i>Here I will explain different Status Codes that will appear when a request is made to the server.</p>
+
+        <img class="matter-img"  src="neog1.png"/>
+
+        <p>We can see what requests are sent, by checking the <i>Inspect Network Tab </i>which is opened by right-clicking mouse button and seclect "Inspect", and then opening "Network" tab as you can see in the image below. Now when the name of the website is entered and we press the search button, multiple requests are registered and we can see them on the display, along with the name of the request Status Codes can be seen.</p>
+
+        <img class="matter-img" src="neog2.png" />
+
+        <p>We encountered 2xx and 3xx category codes what they mean is:
+            <ul>
+                <li><strong>2xx</strong>: Success -> Indicates that the client's request was accepted successfully.</li>
+                
+                <li><strong>3xx</strong>: Redirection –> Indicates that the client must take some additional action in order to complete their request.</li>
+            </ul>
+        </p>
+
+
+        <p>To read about other Status Codes refer the Docs <a href="https://restfulapi.net/http-status-codes/">Here</a></p>
+    </div>
+
+    <footer class="footer ">
+        <div class="footer-header">Connect with Me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class ="link" href="https://github.com/onkarsarje">github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class ="link" href="https://www.linkedin.com/in/onkarsarje">linkedin</a>
+            </li>
+            <li class="list-item-inline">
+                <a class ="link" href="https://twitter.com/SarjeOnkar">twitter</a>
+            </li>
+        </ul>
+    </footer>
+</body>
