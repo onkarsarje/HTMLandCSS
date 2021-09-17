@@ -37,15 +37,28 @@
 
         <img class="matter-img" src="neog2.png" />
 
-        <p>We encountered 2xx and 3xx category codes what they mean is:
+        <p>The Status-Line part of the HTTP response message is used to inform the clients of their request's result. The standard status codes are divided into five categories and are used to convey the results to the clients' requests.
             <ul>
+                <li><strong>1xx</strong>: Informational -> Communicates transfer protocol-level information.</li>
+
                 <li><strong>2xx</strong>: Success -> Indicates that the client's request was accepted successfully.</li>
                 
-                <li><strong>3xx</strong>: Redirection –> Indicates that the client must take some additional action in order to complete their request.</li>
+                <li><strong>3xx</strong>: Redirection –> Indicates that the client must take additional action to complete their request.</li>
+
+                <li><strong>4xx</strong>: Client Error –> This category of error status codes points the finger at clients.</li>
+
+                <li><strong>5xx</strong>: Server Error –> The server takes responsibility for these error status codes.</li>
             </ul>
         </p>
 
-
+        <p>Here is a brief description of some of the Status Codes we encountered:<br><br>
+            &emsp;&FilledSmallSquare;<u> 200</u>: It indicates that the REST API successfully carried out whatever action the client requested. The information returned with the response is dependent on the method used in the request, for example: <i>GET, HEAD, POST, TRACE.</i><br>
+            &emsp;&FilledSmallSquare;<u> 204</u>: It is a response to clients' <i>PUT, POST, DELETE</i> requests and is sent when the REST API declines to send back anu status message.<br>
+            &emsp;&FilledSmallSquare;<u> 304</u>: It is used when the resource has not been modified since the last version. Since the client already has a downloaded copy the resource need not be retransmitted.<br>
+            &emsp;&FilledSmallSquare;<u> 401</u>: It is sent when the client tried to operate on a resource without proper authorization. The client may have provided the wrong credentials or none at all for the protected resource.<br>
+            &emsp;&FilledSmallSquare;<u> 404</u>: It is sent when the REST API is unable to map the client's URL to a resource but may be available in future. If an old resource is permanently unavailable then <i>410(Gone)</i> code should be used.
+        </p>
+<br>
         <p>To read about other Status Codes refer the Docs <a href="https://restfulapi.net/http-status-codes/">Here</a></p>
     </div>
 
